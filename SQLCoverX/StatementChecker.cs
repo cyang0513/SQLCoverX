@@ -1,6 +1,6 @@
-using SQLCover.Objects;
+using SQLCoverX.Objects;
 
-namespace SQLCover
+namespace SQLCoverX
 {
     public class StatementChecker
     {

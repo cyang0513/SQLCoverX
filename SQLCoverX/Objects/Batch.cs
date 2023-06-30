@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using SQLCover.Parsers;
+using SQLCoverX.Parsers;
 
-namespace SQLCover.Objects
+namespace SQLCoverX.Objects
 {
     public class Batch : CoverageSummary
     {

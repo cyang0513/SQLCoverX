@@ -1,6 +1,6 @@
-using SQLCover.Gateway;
-using SQLCover.Objects;
-using SQLCover.Parsers;
+using SQLCoverXStd2.Gateway;
+using SQLCoverXStd2.Objects;
+using SQLCoverXStd2.Parsers;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SQLCover.Source
+namespace SQLCoverXStd2.Source
 {
    public class DatabaseSourceGateway : SourceGateway
    {

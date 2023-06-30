@@ -6,10 +6,10 @@ using System.Linq;
 using System.Security;
 using System.Security.Cryptography;
 using System.Text;
-using SQLCover.Objects;
-using SQLCover.Parsers;
+using SQLCoverX.Objects;
+using SQLCoverX.Parsers;
 
-namespace SQLCover
+namespace SQLCoverX
 {
     public class CoverageResult : CoverageSummary
     {

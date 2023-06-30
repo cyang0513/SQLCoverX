@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace SQLCover
+namespace SQLCoverX
 {
     /// <summary>
     ///  Taken from http://stackoverflow.com/questions/157646/best-way-to-encode-text-data-for-xml

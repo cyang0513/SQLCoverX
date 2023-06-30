@@ -1,8 +1,8 @@
 ﻿using Microsoft.SqlServer.TransactSql.ScriptDom;
-using SQLCover.Objects;
+using SQLCoverXStd2.Objects;
 using System;
 
-namespace SQLCover.Parsers
+namespace SQLCoverXStd2.Parsers
 {
    internal static class TSqlParserBuilder
    {

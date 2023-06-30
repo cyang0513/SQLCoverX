@@ -1,7 +1,7 @@
-﻿using SQLCover.Gateway;
+﻿using SQLCoverXStd2.Gateway;
 using System.IO;
 
-namespace SQLCover.Trace
+namespace SQLCoverXStd2.Trace
 {
     class SqlLocalDbTraceController : SqlTraceController
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using Microsoft.SqlServer.TransactSql.ScriptDom;
-using SQLCover.Objects;
+using SQLCoverX.Objects;
 
-namespace SQLCover.Parsers
+namespace SQLCoverX.Parsers
 {
     public class StatementParser
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SQLCover.Objects
+namespace SQLCoverXStd2.Objects
 {
 
     public class CoverageInformation

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using SQLCover.Gateway;
+using SQLCoverXStd2.Gateway;
 
-namespace SQLCover.Trace
+namespace SQLCoverXStd2.Trace
 {
     class SqlTraceController : TraceController
     {

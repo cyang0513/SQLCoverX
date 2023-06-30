@@ -1,4 +1,4 @@
-﻿namespace SQLCover.Objects
+﻿namespace SQLCoverX.Objects
 {
     public class CoveredStatement
     {

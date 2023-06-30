@@ -1,14 +1,14 @@
 ﻿using Microsoft.Data.SqlClient;
-using SQLCover.Gateway;
-using SQLCover.Source;
-using SQLCover.Trace;
+using SQLCoverXStd2.Gateway;
+using SQLCoverXStd2.Source;
+using SQLCoverXStd2.Trace;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 
-namespace SQLCover
+namespace SQLCoverXStd2
 {
    public class CodeCoverage
    {

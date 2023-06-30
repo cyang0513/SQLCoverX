@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace SQLCover
+namespace SQLCoverX
 {
     [Serializable]
     public class SqlCoverException : Exception

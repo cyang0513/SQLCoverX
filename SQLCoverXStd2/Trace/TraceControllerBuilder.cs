@@ -1,9 +1,9 @@
 using System;
-using SQLCover.Gateway;
-using SQLCover.Objects;
-using SQLCover.Source;
+using SQLCoverXStd2.Gateway;
+using SQLCoverXStd2.Objects;
+using SQLCoverXStd2.Source;
 
-namespace SQLCover.Trace
+namespace SQLCoverXStd2.Trace
 {
     class TraceControllerBuilder
     {

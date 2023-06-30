@@ -8,7 +8,7 @@ namespace SQLCoverXTestConsole
       static void Main(string[] args)
       {
          Console.WriteLine("Test started...");
-         var cover = new SQLCover.CodeCoverage("Data Source=.;Initial Catalog=TestDb;Integrated Security=True;TrustServerCertificate=True", "TestDb");
+         var cover = new SQLCoverX.CodeCoverage("Data Source=.;Initial Catalog=TestDb;Integrated Security=True;TrustServerCertificate=True", "TestDb");
          cover.Start(30000);
 
          using (var sqlCon = new SqlConnection("Data Source=.;Initial Catalog=TestDb;Integrated Security=True;TrustServerCertificate=True"))

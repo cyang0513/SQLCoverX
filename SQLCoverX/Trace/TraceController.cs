@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using SQLCover.Gateway;
+using SQLCoverX.Gateway;
 
-namespace SQLCover.Trace
+namespace SQLCoverX.Trace
 {
     abstract class TraceController
     {

@@ -1,10 +1,10 @@
 ﻿using Microsoft.Data.SqlClient;
-using SQLCover.Gateway;
-using SQLCover.Source;
-using SQLCover.Trace;
+using SQLCoverX.Gateway;
+using SQLCoverX.Source;
+using SQLCoverX.Trace;
 using System.Diagnostics;
 
-namespace SQLCover
+namespace SQLCoverX
 {
    public class CodeCoverage
    {

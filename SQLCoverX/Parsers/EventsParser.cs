@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Xml.Linq;
 using System.Xml.XPath;
-using SQLCover.Objects;
+using SQLCoverX.Objects;
 
-namespace SQLCover.Parsers
+namespace SQLCoverX.Parsers
 {
     public class EventsParser
     {

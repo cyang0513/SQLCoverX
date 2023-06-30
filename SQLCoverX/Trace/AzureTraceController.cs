@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Threading;
-using SQLCover.Gateway;
+using SQLCoverX.Gateway;
 
-namespace SQLCover.Trace
+namespace SQLCoverX.Trace
 {
     internal class AzureTraceController : TraceController
     {

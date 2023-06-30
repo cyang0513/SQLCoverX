@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using SQLCover.Objects;
+using SQLCoverXStd2.Objects;
 
-namespace SQLCover.Source
+namespace SQLCoverXStd2.Source
 {
     public interface SourceGateway
     {

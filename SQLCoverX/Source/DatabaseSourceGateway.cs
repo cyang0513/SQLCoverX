@@ -1,11 +1,11 @@
-using SQLCover.Gateway;
-using SQLCover.Objects;
-using SQLCover.Parsers;
+using SQLCoverX.Gateway;
+using SQLCoverX.Objects;
+using SQLCoverX.Parsers;
 using System.Data;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SQLCover.Source
+namespace SQLCoverX.Source
 {
    public class DatabaseSourceGateway : SourceGateway
    {

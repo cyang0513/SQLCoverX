@@ -2,7 +2,7 @@
 using System.Data;
 using System.Xml;
 
-namespace SQLCover.Gateway
+namespace SQLCoverX.Gateway
 {
    public class DatabaseGateway
    {
