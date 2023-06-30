@@ -9,21 +9,12 @@ namespace SQLCoverXTestConsole
       {
          Console.WriteLine("Test started...");
          var cover = new SQLCover.CodeCoverage("Data Source=.;Initial Catalog=TestDb;Integrated Security=True;TrustServerCertificate=True", "TestDb");
-         cover.Start();
+         cover.Start(30000);
 
          using (var sqlCon = new SqlConnection("Data Source=.;Initial Catalog=TestDb;Integrated Security=True;TrustServerCertificate=True"))
          {
             sqlCon.Open();
-            SqlCommand sql_cmnd = new SqlCommand("SelectAllCustomers", sqlCon);
-            sql_cmnd.CommandType = CommandType.StoredProcedure;
-            sql_cmnd.ExecuteNonQuery();
-            sqlCon.Close();
-         }
-
-         using (var sqlCon = new SqlConnection("Data Source=.;Initial Catalog=TestDb;Integrated Security=True;TrustServerCertificate=True"))
-         {
-            sqlCon.Open();
-            SqlCommand sql_cmnd = new SqlCommand("TestAdd", sqlCon);
+            SqlCommand sql_cmnd = new SqlCommand("p_Cal", sqlCon);
             sql_cmnd.CommandType = CommandType.StoredProcedure;
             sql_cmnd.Parameters.AddWithValue("@v1", SqlDbType.Int).Value = 5;
             sql_cmnd.Parameters.AddWithValue("@v2", SqlDbType.Int).Value = 10;

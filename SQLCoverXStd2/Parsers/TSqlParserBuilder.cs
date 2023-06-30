@@ -1,5 +1,6 @@
 ﻿using Microsoft.SqlServer.TransactSql.ScriptDom;
 using SQLCover.Objects;
+using System;
 
 namespace SQLCover.Parsers
 {
@@ -22,9 +23,8 @@ namespace SQLCover.Parsers
             case SqlServerVersion.Sql140:
                return new TSql140Parser(quoted);
             case SqlServerVersion.Sql150:
-               return new TSql150Parser(quoted);
             case SqlServerVersion.Sql160:
-               return new TSql160Parser(quoted);
+               return new TSql150Parser(quoted);
             default:
                throw new ArgumentOutOfRangeException(nameof(version), version, null);
          }

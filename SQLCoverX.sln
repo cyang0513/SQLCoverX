@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLCoverX", "SQLCoverX\SQLCoverX.csproj", "{EDC16D98-8482-4D5E-9274-C45E91BFE8E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLCoverXTestConsole", "SQLCoverXTestConsole\SQLCoverXTestConsole.csproj", "{701177CA-8EB9-458D-8E84-5153D3698B41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLCoverXTestConsole", "SQLCoverXTestConsole\SQLCoverXTestConsole.csproj", "{701177CA-8EB9-458D-8E84-5153D3698B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLCoverXStd2", "SQLCoverXStd2\SQLCoverXStd2.csproj", "{B3AF8380-1CC6-4526-ABAF-789FF352A527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{701177CA-8EB9-458D-8E84-5153D3698B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{701177CA-8EB9-458D-8E84-5153D3698B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{701177CA-8EB9-458D-8E84-5153D3698B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3AF8380-1CC6-4526-ABAF-789FF352A527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AF8380-1CC6-4526-ABAF-789FF352A527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AF8380-1CC6-4526-ABAF-789FF352A527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AF8380-1CC6-4526-ABAF-789FF352A527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
